@@ -1,0 +1,44 @@
+#
+#  █████╗ ██╗      █████╗  ██████╗██████╗ ██╗████████╗████████╗██╗   ██╗
+# ██╔══██╗██║     ██╔══██╗██╔════╝██╔══██╗██║╚══██╔══╝╚══██╔══╝╚██╗ ██╔╝
+# ███████║██║     ███████║██║     ██████╔╝██║   ██║      ██║    ╚████╔╝
+# ██╔══██║██║     ██╔══██║██║     ██╔══██╗██║   ██║      ██║     ╚██╔╝
+# ██║  ██║███████╗██║  ██║╚██████╗██║  ██║██║   ██║      ██║      ██║
+# ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝   ╚═╝      ╚═╝      ╚═╝
+# A cross-platform, OpenGL terminal emulator.
+# https://alacritty.org
+
+live_config_reload: true
+
+env:
+  TERM: xterm-256color
+  WINIT_X11_SCALE_FACTOR: "1.5"
+
+window:
+  decorations: none
+  dynamic_padding: false
+  opacity: 0.9
+  padding:
+    x: 14
+    y: 10
+
+font:
+  normal:
+    family: "SFMono Nerd Font"
+    style: Medium
+  italic:
+    family: "SFMono Nerd Font"
+    style: Medium Italic
+  bold:
+    family: "SFMono Nerd Font"
+    style: Heavy
+  bold_italic:
+    family: "SFMono Nerd Font"
+    style: Heavy Italic
+  size: 12.0
+
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+  # - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+  # - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+  # - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
