@@ -4,8 +4,9 @@
 
 vim.opt.guicursor = "n-v-i-c:block-Cursor"
 vim.opt.timeoutlen = 0
--- vim.opt.colorcolumn = "80"
--- vim.opt.linebreak = true
+vim.opt.colorcolumn = "80"
+vim.opt.wrap = true
+vim.opt.linebreak = true
 --
 --
 --
