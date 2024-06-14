@@ -127,9 +127,9 @@ bindkey "^w" backward-delete-char
 # backward-kill-word
 bindkey "^[w" backward-kill-word
 # search fzf 
-bindkey -s '^[ ' 'fdfind --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs nvim\n'
+bindkey -s '^[ ' 'fdfind --type f --hidden --exclude .git | fzf-tmux -p --reverse | xargs -r nvim\n'
 # search history  fzf
-bindkey '^[s' history-fzf-execute
+bindkey '^[h' history-fzf-execute
 
 # -- ALIASES --
 # root
